@@ -2,8 +2,8 @@ from datetime import datetime
 from sqlalchemy import Integer, DateTime, String
 from sqlalchemy.orm import mapped_column, Mapped
 
-from db import Base
-from models.user import TABLE_NAME as USER_TABLE_NAME, User
+from .base import Base
+from .user import TABLE_NAME as USER_TABLE_NAME, User
 
 TABLE_NAME = "session"
 

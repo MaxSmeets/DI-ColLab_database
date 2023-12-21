@@ -1,6 +1,7 @@
 from sqlalchemy import Integer, String
 from sqlalchemy.orm import mapped_column, Mapped
-from db import Base
+
+from .base import Base
 
 TABLE_NAME = "user"
 
